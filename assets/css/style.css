@@ -361,6 +361,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   background-repeat: no-repeat;
   overflow: hidden;
 }
+.hero-container{
+  height: 900px;
+}
 
 #hero .carousel-item::before {
   content: '';
@@ -377,7 +380,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #hero .carousel-container {
   display: flex;
-  background-color: black;
+  /* background-color: black; */
   opacity: 0.6;
   justify-content: center;
   align-items: center;
